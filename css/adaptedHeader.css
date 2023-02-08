@@ -1,0 +1,12 @@
+@media (max-width: 900px) {
+    .mainClosed{
+        display: inline-block;
+        filter:invert();
+        margin: 1.5rem;
+        width: 2rem;
+    }
+    .navList li{
+        display: none;
+    }
+    
+}

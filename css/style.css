@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+:root{
+    --colorOne : #ccc;
+    --colorTwo : #3d3333;
+}
+
+a{
+    color: var(--colorOne);
+}
+
+input, textarea{
+    width: 30rem;
+    margin-bottom: 2rem;
+}
+input{
+    border-bottom: var(--colorTwo) double;
+    height: 2.5rem;
+}
+
+textarea{
+    border: var(--colorTwo) double;
+    border-radius: 20px/30px;
+    padding: 0.3rem;
+}

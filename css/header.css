@@ -1,0 +1,39 @@
+.navBar{
+    align-items: center;
+    background-color: var(--colorTwo);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.hostName a{
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.navList{
+    display: flex;
+}
+
+.navList li a, .hostName a{
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: .5rem;
+    margin: 1rem 2rem;
+}
+
+.navList li:hover a, .hostName:hover a{
+    color: #FFF;
+    position: relative;
+    transform: scale(1.11115);
+}
+
+.mainClosed{
+    display: none;
+}
+
+.mainOpened{
+    display: none;
+}
